@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We wish you all the goodness and greatness of life in abundance"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:paddingTop="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Creative Arts Ministry!!"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:paddingBottom="16dp"
+        android:paddingRight="8dp"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+
+
+</android.widget.RelativeLayout>
